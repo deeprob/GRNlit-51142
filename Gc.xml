@@ -4,63 +4,23 @@
 <key id="d2" for="node" attr.name="Expression" attr.type="string"/>
 <key id="d1" for="node" attr.name="Cyclicity" attr.type="string"/>
 <key id="d0" for="node" attr.name="Function" attr.type="string"/>
-<graph edgedefault="directed"><node id="nifD">
-  <data key="d0">nitrogenase molybdenum-iron protein alpha chain</data>
-  <data key="d1">circadian</data>
-  <data key="d2">D</data>
-</node>
-<node id="kaiB1">
+<graph edgedefault="directed"><node id="kaiA">
   <data key="d0">circadian clock protein</data>
   <data key="d1">diurnal</data>
   <data key="d2">unknown</data>
-</node>
-<node id="nifK">
-  <data key="d0">nitrogenase molybdenum-iron protein beta chain</data>
-  <data key="d1">circadian</data>
-  <data key="d2">D</data>
-</node>
-<node id="nifZ">
-  <data key="d0">iron-sulfur cofactor synthesis protein</data>
-  <data key="d1">circadian</data>
-  <data key="d2">D</data>
-</node>
-<node id="cce_3298">
-  <data key="d0">unknown</data>
-  <data key="d1">circadian</data>
-  <data key="d2">unknown</data>
-</node>
-<node id="kaiB4">
-  <data key="d0">putative circadian clock protein</data>
-  <data key="d1">acyclic</data>
-  <data key="d2">unknown</data>
-</node>
-<node id="sigD">
-  <data key="d0">group 2 sigma-70 RNA polymerase sigma factor D</data>
-  <data key="d1">circadian</data>
-  <data key="d2">L to D</data>
 </node>
 <node id="kaiC1">
   <data key="d0">circadian clock protein</data>
   <data key="d1">insignificant</data>
   <data key="d2">unknown</data>
 </node>
-<node id="cce_2642">
-  <data key="d0">circadian phase modifier CpmA-like protein</data>
-  <data key="d1">unknown</data>
+<node id="kaiB1">
+  <data key="d0">circadian clock protein</data>
+  <data key="d1">diurnal</data>
   <data key="d2">unknown</data>
 </node>
-<node id="patB">
-  <data key="d0">probable transcriptional regulator</data>
-  <data key="d1">circadian</data>
-  <data key="d2">D</data>
-</node>
-<node id="kaiC2">
-  <data key="d0">circadian clock protein</data>
-  <data key="d1">acyclic</data>
-  <data key="d2">unknown</data>
-</node>
-<node id="kaiB3">
-  <data key="d0">circadian clock protein</data>
+<node id="cce_3298">
+  <data key="d0">unknown</data>
   <data key="d1">circadian</data>
   <data key="d2">unknown</data>
 </node>
@@ -69,14 +29,9 @@
   <data key="d1">circadian</data>
   <data key="d2">D</data>
 </node>
-<node id="nifH">
-  <data key="d0">nitrogenase iron protein</data>
-  <data key="d1">circadian</data>
-  <data key="d2">D</data>
-</node>
-<node id="kaiA">
+<node id="kaiB3">
   <data key="d0">circadian clock protein</data>
-  <data key="d1">diurnal</data>
+  <data key="d1">circadian</data>
   <data key="d2">unknown</data>
 </node>
 <node id="cce_0571">
@@ -84,15 +39,65 @@
   <data key="d1">circadian</data>
   <data key="d2">D</data>
 </node>
-<node id="rpaA">
-  <data key="d0">two-component response regulator</data>
-  <data key="d1">diurnal</data>
+<node id="kaiC2">
+  <data key="d0">circadian clock protein</data>
+  <data key="d1">acyclic</data>
+  <data key="d2">unknown</data>
+</node>
+<node id="kaiB4">
+  <data key="d0">putative circadian clock protein</data>
+  <data key="d1">acyclic</data>
+  <data key="d2">unknown</data>
+</node>
+<node id="cce_2642">
+  <data key="d0">circadian phase modifier CpmA-like protein</data>
+  <data key="d1">unknown</data>
+  <data key="d2">unknown</data>
+</node>
+<node id="nifD">
+  <data key="d0">nitrogenase molybdenum-iron protein alpha chain</data>
+  <data key="d1">circadian</data>
+  <data key="d2">D</data>
+</node>
+<node id="nifZ">
+  <data key="d0">iron-sulfur cofactor synthesis protein</data>
+  <data key="d1">circadian</data>
+  <data key="d2">D</data>
+</node>
+<node id="nifH">
+  <data key="d0">nitrogenase iron protein</data>
+  <data key="d1">circadian</data>
+  <data key="d2">D</data>
+</node>
+<node id="patB">
+  <data key="d0">probable transcriptional regulator</data>
+  <data key="d1">circadian</data>
+  <data key="d2">D</data>
+</node>
+<node id="nifK">
+  <data key="d0">nitrogenase molybdenum-iron protein beta chain</data>
+  <data key="d1">circadian</data>
+  <data key="d2">D</data>
+</node>
+<node id="sigD">
+  <data key="d0">group 2 sigma-70 RNA polymerase sigma factor D</data>
+  <data key="d1">circadian</data>
   <data key="d2">L to D</data>
 </node>
-<node id="cce_3378">
-  <data key="d0">two-component response regulator</data>
+<node id="sigE">
+  <data key="d0">group 2 sigma-70 RNA polymerase sigma factor E</data>
   <data key="d1">diurnal</data>
-  <data key="d2">L to D</data>
+  <data key="d2">unknown</data>
+</node>
+<node id="cce_2350">
+  <data key="d0">putative alpha-helical ferredoxin</data>
+  <data key="d1">unknown</data>
+  <data key="d2">unknown</data>
+</node>
+<node id="cce_4751">
+  <data key="d0">two-component hybrid sensor and regulator</data>
+  <data key="d1">diurnal</data>
+  <data key="d2">unknown</data>
 </node>
 <node id="sigB">
   <data key="d0">group 2 sigma-70 RNA polymerase sigma factor B</data>
@@ -108,6 +113,16 @@
   <data key="d0">adaptive-response sensory histidine kinase</data>
   <data key="d1">diurnal</data>
   <data key="d2">unknown</data>
+</node>
+<node id="rpaA">
+  <data key="d0">two-component response regulator</data>
+  <data key="d1">diurnal</data>
+  <data key="d2">L to D</data>
+</node>
+<node id="cce_3378">
+  <data key="d0">two-component response regulator</data>
+  <data key="d1">diurnal</data>
+  <data key="d2">L to D</data>
 </node>
 <node id="pheA">
   <data key="d0">prephenate dehydratase</data>
@@ -174,21 +189,14 @@
   <data key="d1">diurnal</data>
   <data key="d2">unknown</data>
 </node>
-<node id="cce_2350">
-  <data key="d0">putative alpha-helical ferredoxin</data>
-  <data key="d1">unknown</data>
-  <data key="d2">unknown</data>
-</node>
-<node id="cce_4751">
-  <data key="d0">two-component hybrid sensor and regulator</data>
-  <data key="d1">diurnal</data>
-  <data key="d2">unknown</data>
-</node>
-<node id="sigE">
-  <data key="d0">group 2 sigma-70 RNA polymerase sigma factor E</data>
-  <data key="d1">diurnal</data>
-  <data key="d2">unknown</data>
-</node>
+<edge source="kaiA" target="cce_2350">
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+</edge>
+<edge source="kaiA" target="cce_4751">
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+</edge>
 <edge source="kaiB1" target="kaiB4">
   <data key="d3">1</data>
   <data key="d4">1</data>
@@ -198,6 +206,46 @@
   <data key="d4">2</data>
 </edge>
 <edge source="cce_3298" target="ntcA">
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+</edge>
+<edge source="kaiB3" target="kaiB1">
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+</edge>
+<edge source="kaiB3" target="sasA">
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+</edge>
+<edge source="kaiC2" target="kaiA">
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+</edge>
+<edge source="kaiC2" target="kaiC1">
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+</edge>
+<edge source="kaiC2" target="rpaA">
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+</edge>
+<edge source="patB" target="rpaA">
+  <data key="d3">-1</data>
+  <data key="d4">2</data>
+</edge>
+<edge source="patB" target="ntcA">
+  <data key="d3">-1</data>
+  <data key="d4">2</data>
+</edge>
+<edge source="patB" target="nifH">
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+</edge>
+<edge source="patB" target="nifD">
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+</edge>
+<edge source="patB" target="nifK">
   <data key="d3">1</data>
   <data key="d4">2</data>
 </edge>
@@ -253,51 +301,19 @@
   <data key="d5">-0.31863</data>
   <data key="d4">5</data>
 </edge>
-<edge source="patB" target="rpaA">
-  <data key="d3">-1</data>
-  <data key="d4">2</data>
+<edge source="sigE" target="hupL">
+  <data key="d5">0.317</data>
+  <data key="d4">5</data>
 </edge>
-<edge source="patB" target="ntcA">
-  <data key="d3">-1</data>
-  <data key="d4">2</data>
+<edge source="sigE" target="cce_0571">
+  <data key="d5">0.61694</data>
+  <data key="d4">5</data>
 </edge>
-<edge source="patB" target="nifH">
-  <data key="d3">1</data>
-  <data key="d4">2</data>
+<edge source="sigE" target="nifZ">
+  <data key="d5">0.20534</data>
+  <data key="d4">5</data>
 </edge>
-<edge source="patB" target="nifD">
-  <data key="d3">1</data>
-  <data key="d4">2</data>
-</edge>
-<edge source="patB" target="nifK">
-  <data key="d3">1</data>
-  <data key="d4">2</data>
-</edge>
-<edge source="kaiC2" target="kaiA">
-  <data key="d3">1</data>
-  <data key="d4">1</data>
-</edge>
-<edge source="kaiC2" target="kaiC1">
-  <data key="d3">1</data>
-  <data key="d4">1</data>
-</edge>
-<edge source="kaiC2" target="rpaA">
-  <data key="d3">1</data>
-  <data key="d4">1</data>
-</edge>
-<edge source="kaiB3" target="kaiB1">
-  <data key="d3">1</data>
-  <data key="d4">1</data>
-</edge>
-<edge source="kaiB3" target="sasA">
-  <data key="d3">1</data>
-  <data key="d4">1</data>
-</edge>
-<edge source="kaiA" target="cce_2350">
-  <data key="d3">1</data>
-  <data key="d4">1</data>
-</edge>
-<edge source="kaiA" target="cce_4751">
+<edge source="sasA" target="kaiC2">
   <data key="d3">1</data>
   <data key="d4">1</data>
 </edge>
@@ -317,24 +333,8 @@
   <data key="d5">0.23836</data>
   <data key="d4">5</data>
 </edge>
-<edge source="sasA" target="kaiC2">
-  <data key="d3">1</data>
-  <data key="d4">1</data>
-</edge>
 <edge source="cce_4141" target="cce_3298">
   <data key="d3">1</data>
   <data key="d4">2</data>
-</edge>
-<edge source="sigE" target="hupL">
-  <data key="d5">0.317</data>
-  <data key="d4">5</data>
-</edge>
-<edge source="sigE" target="cce_0571">
-  <data key="d5">0.61694</data>
-  <data key="d4">5</data>
-</edge>
-<edge source="sigE" target="nifZ">
-  <data key="d5">0.20534</data>
-  <data key="d4">5</data>
 </edge>
 </graph></graphml>
