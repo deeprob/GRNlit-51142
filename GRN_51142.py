@@ -215,8 +215,8 @@ class GRN_51142:
         
         plt.figure(figsize=(30,20))
 
-        tfnode  = [node for node in self.Gp.nodes if node in self._interdf.CommonName.values]
-        tgnode  = [node for node in self.Gp.nodes if node not in self._interdf.CommonName.values]
+        tfnode  = [node for node in self.Gp.nodes if self.GenCyanoDB.loc[self.GenCyanoDB.CommonName==node]['TfBool'].values[0]]
+        tgnode  = [node for node in self.Gp.nodes if not self.GenCyanoDB.loc[self.GenCyanoDB.CommonName==node]['TfBool'].values[0]]
         
         
 
@@ -265,8 +265,8 @@ class GRN_51142:
         Gc.add_edges_from(edge_list)
         
         plt.figure(figsize=(30,15))
-        tfnode  = [node for node in Gc.nodes if node in self._interdf.CommonName.values]
-        tgnode  = [node for node in Gc.nodes if node not in self._interdf.CommonName.values]
+        tfnode  = [node for node in Gc.nodes if self.GenCyanoDB.loc[self.GenCyanoDB.CommonName==node]['TfBool'].values[0]]
+        tgnode  = [node for node in Gc.nodes if not self.GenCyanoDB.loc[self.GenCyanoDB.CommonName==node]['TfBool'].values[0]]
         
 
         elarge = [(u, v) for (u, v, d) in Gc.edges(data=True) if d['weight'] > 0]
@@ -314,8 +314,8 @@ class GRN_51142:
         Gd.add_nodes_from(diurnal_nodes)
         Gd.add_edges_from(edge_list)
         
-        tfnode  = [node for node in Gd.nodes if node in self._interdf.CommonName.values]
-        tgnode  = [node for node in Gd.nodes if node not in self._interdf.CommonName.values]
+        tfnode  = [node for node in Gd.nodes if self.GenCyanoDB.loc[self.GenCyanoDB.CommonName==node]['TfBool'].values[0]]
+        tgnode  = [node for node in Gd.nodes if not self.GenCyanoDB.loc[self.GenCyanoDB.CommonName==node]['TfBool'].values[0]]
 
 
         plt.figure(figsize=(30,20))
